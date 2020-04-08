@@ -1,14 +1,16 @@
 <?php
 	
-	/**
-	 * 
-	 */
+	
 	class App
 	{
 		
 		function __construct()
 		{
-			echo "Clase app";
+			echo "<p>Clase app</p>";
+
+			$url = $_GET['url'];
+			echo $url;
 		}
 	}
+
 ?>
